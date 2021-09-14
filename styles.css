@@ -56,10 +56,14 @@ h3{
 
 @media(min-width:1024px){
     .first{
-        width: 550px;
-        height: 500px;
-        margin-left: 300px;
-       
+        width: 40vw;
+        height: 75vh;
+        margin-left: 30vw;
+        margin-top: 13vh;
+        
+        /* margin-left: 30vw;
+        margin-top: 20vh;
+        */
     }
 
     #task{
@@ -67,6 +71,7 @@ h3{
         height: 50px;
         margin-left: 100px;
         margin-top: 80px;
+        padding: 30px;
     }
     #delete{
         margin-left: 350px;
