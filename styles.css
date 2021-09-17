@@ -4,45 +4,45 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
-    height: 100vh; 
     background:linear-gradient(to right,#9c77be,#8ecdff);
-
 }
  .first{
-     width: 320px;
-     height: 500px;
-   margin-left:30px;
-   margin-top: 130px;
-    background-color: cornflowerblue;
-    position: absolute;
+     width: 85vw;
+     height: 90vh;
+     margin-left: 6vw;
+     margin-top: 6vh;
+     background-color: cornflowerblue;
+    
 } 
  h2{
      text-align: center;
     padding-top: 30px; 
     
 } 
- 
+
+
  #task{
      width: 180px;
-    height: 50px;
+     height: 60px;
     border-radius: 5px;
-    margin-left: 30px;
-    border-width: 0;
-  margin-top: 30px;
+    margin-left: 25px;
+   padding: 30px;
+   margin-top: 6vh; 
  }
  #put{
      width: 50px;
-     height: 50px;
+     height: 60px;
      background-color:rgb(228, 201, 228);
     border-radius: 8px;
     margin-left: 5px;
+     margin-top: 6vh; 
+    
     }
  #delete{
      width: 100px;
      height: 50px;
-     margin-left: 200px;
-     margin-top: 15px;
+     margin-left: 55vw;
+    margin-top: 10px; 
      background-color:rgb(226, 208, 226);
      border-radius: 8px;
     
@@ -56,29 +56,29 @@ h3{
 
 @media(min-width:1024px){
     .first{
-        width: 40vw;
-        height: 75vh;
-        margin-left: 30vw;
-        margin-top: 13vh;
+        width: 60vw;
+        height: 85vh;
+        margin-left: 20vw;
+        margin-top: 10vh;
+         
         
-        /* margin-left: 30vw;
-        margin-top: 20vh;
-        */
     }
+    
+    
 
     #task{
-        width: 250px;
+        width: 300px;
         height: 50px;
-        margin-left: 100px;
+        margin-left: 15vw;
         margin-top: 80px;
         padding: 30px;
     }
     #delete{
-        margin-left: 350px;
-
+        margin-left:5px;
     }
+    
     h3{
-        margin-left: 120px;
+        margin-left: 18vw;
         
     }
    
